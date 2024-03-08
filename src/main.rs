@@ -226,12 +226,12 @@ fn graph_quadratic(graph: &mut Vec2D<u8>)
 
 fn main() 
 {
+    // use termsize crate to get dimensions of command line, so the graph can adjust accordingly
     let rows: usize = (termsize::get().unwrap().rows).into();
     let cols: usize = termsize::get().unwrap().cols.into();
     let mut graph: Vec2D<u8> = Vec2D::from_example(Size::new(cols, rows), &0);
     reset_graph(&mut graph);
-
-    println!("rows: {rows} cols: {cols}");
+    
     // user input loop
     loop {
         

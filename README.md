@@ -1,6 +1,6 @@
 # Overview
 
-A technically functioning, simplistic graphing calculator for the command line, in Rust for some reason.
+A technically functioning, simplistic graphing calculator for the command line.
 
 Written to familiarize myself with Rust's syntax, but not practices.
 
